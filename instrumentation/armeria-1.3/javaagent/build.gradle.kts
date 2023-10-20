@@ -18,6 +18,7 @@ dependencies {
   library("com.linecorp.armeria:armeria:1.3.0")
 
   testImplementation(project(":instrumentation:armeria-1.3:testing"))
+  testImplementation("com.linecorp.armeria:armeria-grpc:1.3.0")
 }
 
 tasks {
